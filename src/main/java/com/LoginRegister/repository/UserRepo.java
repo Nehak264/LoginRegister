@@ -1,7 +1,7 @@
 package com.LoginRegister.repository;
 
-import org.apache.catalina.User;
+import com.LoginRegister.entity.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepo extends JpaRepository<User, Integer> {
+public interface UserRepo extends JpaRepository<Users, Integer>  {
 }
