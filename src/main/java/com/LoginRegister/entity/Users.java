@@ -11,8 +11,9 @@ import jakarta.persistence.Table;
 public class Users {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  // ← THIS IS THE FIX
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer userId;
+
 
     private String userPassword;
 
